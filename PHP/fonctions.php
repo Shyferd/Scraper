@@ -15,14 +15,36 @@ function between ($a, $that, $inthat)
     return before ($that, after($a, $inthat));
 };
 
-function findObjects($htmlink){
+function findSousCateg($htmlink){
+    $i=1;
+    $html=file_get_html($htmlink);
+    $categorie=after('en ',$html->find('h1')[0]->plaintext);
+    foreach($html->find('ul[id=zg_browseRoot]') as $liste)
+    {
+        foreach($liste->find('a[href]') as $sousCateg)
+        {
+            $sousCategName[$sousCateg->plaintext]=($sousCateg->href);
+            if (isset($sousCategName['Tout département'])){
+                unset($sousCategName['Tout département']);
+            }else {
+                $objects[$i]= findObjects($sousCategName[$sousCateg->plaintext], $categorie);
+                $i++;
+                //var_dump($objects);break;
+            }
+        }
+    }
+    return $objects;
+};
+
+function findObjects($htmlink, $categorie){
     $i=1;
     $html=file_get_html($htmlink);
     foreach($html->find('ol') as $ul)
     {
         foreach($ul->find('li') as $li)
         {
-            $ojects[$i]['Categorie']=after('en ',$html->find('h1')[0]->plaintext);
+            $ojects[$i]['CategorieMere']=$categorie;
+            $ojects[$i]['CategorieFille']=after('en ',$html->find('h1')[0]->plaintext);
             $ojects[$i]['Rang']=$li->find('span[class=zg-badge-text]')[0]->plaintext;
             $url = $li->find('a[class=a-link-normal]')[0]->href;
             $html2=file_get_contents("https://www.amazon.fr".$url);

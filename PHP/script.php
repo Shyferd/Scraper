@@ -6,12 +6,14 @@ include "cnx.php";
 
 $fichier = file("../links.txt");
 $total = count($fichier);
-for($categorie = 0; $categorie < 1; $categorie++) {
+for($categorie = 0; $categorie < $total; $categorie++) {
     $table[$categorie]=findSousCateg($fichier[$categorie]);
-    //var_dump($table[$categorie]);break;
+    /*$newTable = $table[$categorie][1][1]['CategorieMere'];
+    $queryEtat=$cnx->prepare();
+    $queryEtat->execute();break;*/
     foreach ($table[$categorie] as $souscateg){
         foreach ($souscateg as $objet){
-            var_dump($objet);
+            //var_dump($objet);
             $queryEtat=$cnx->prepare('INSERT INTO `table1` VALUES("'.$objet['CategorieMere'].'", "'.$objet['CategorieFille'].'", "'.$objet['Rang'].'", "'.$objet['Marque'].'", "'.$objet['Expediteur'].'", "'.$objet['ASIN'].'", "'.$objet['etoile'].'", "'.$objet['note'].'", "'.$objet['date'].'");');
             $queryEtat->execute();
         }

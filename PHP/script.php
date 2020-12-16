@@ -1,5 +1,6 @@
 <?php
 date_default_timezone_set('Europe/Paris');
+set_time_limit(0);
 include "../Libs/simple_html_dom.php";
 include "fonctions.php";
 include "cnx.php";

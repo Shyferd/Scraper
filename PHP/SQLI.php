@@ -1,6 +1,6 @@
 <?php
 /* Open connection to "zing_db" MySQL database. */
-$mysqli = new mysqli("localhost", "root", "root", "mabase");
+$mysqli = new mysqli("localhost", "scraper", "password", "mabase");
 
 /* Check the connection. */
 if (mysqli_connect_errno()) {

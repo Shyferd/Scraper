@@ -18,6 +18,7 @@ function between ($a, $that, $inthat)
 function findSousCateg($htmlink){
     $i=1;
     $html=file_get_html($htmlink);
+    sleep(1.5);
     $categorie=after('en ',$html->find('h1')[0]->plaintext);
     foreach($html->find('ul[id=zg_browseRoot]') as $liste)
     {
@@ -39,6 +40,7 @@ function findSousCateg($htmlink){
 function findObjects($htmlink, $categorie){
     $i=1;
     $html=file_get_html($htmlink);
+    sleep(1.5);
     foreach($html->find('ol') as $ul)
     {
         foreach($ul->find('li') as $li)
@@ -48,6 +50,7 @@ function findObjects($htmlink, $categorie){
             $ojects[$i]['Rang']=$li->find('span[class=zg-badge-text]')[0]->plaintext;
             $url = $li->find('a[class=a-link-normal]')[0]->href;
             $html2=file_get_contents("https://www.amazon.fr".$url);
+            sleep(1.5);
             $ojects[$i]['Marque']=between('Marque&nbsp;: ','</a>', $html2);
             $ojects[$i]['Expediteur']=between("sellerProfileTriggerId'>",'</a>', $html2);
             $asin=between('dp/','/ref',$url);

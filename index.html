@@ -3,47 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ZingSoft Demo</title>
+    <title>Controle d'application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
-    <style>
-        html,
-        body,
-        #myChart {
-            height: 100%;
-            width: 100%;
-        }
-    </style>
 </head>
 
 <body>
-<div id='myChart'></div>
-<script>
-    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "b55b025e438fa8a98e32482b5f768ff5"];
-    var myData = "<?php while($info=mysqli_fetch_array($data)) echo $info[ 'f_data' ].',';?>";
-    var myLabels;
-    var myConfig = {
-        "graphset": [{
-            "type": "bar",
-            "title": {
-                "text": "Data Pulled from MySQL Database"
-            },
-            "scale-x": {
-                "labels": ["Webster", "Parnel", "Dena", "Tyrell", "Martha", "Summer", "Linton"]
-            },
-            "series": [{
-                "values": myData
-            }]
-        }]
-    };
-
-    zingchart.render({
-        id: 'myChart',
-        data: myConfig,
-        height: "100%",
-        width: "100%"
-    });
-</script>
+    <input type="submit" class="btn btn-primary" value="Lancer" onclick="window.location='http://51.68.230.214/scraper/PHP/script.php'">
 </body>
 
 </html>

@@ -1,7 +1,6 @@
 https://www.amazon.fr/gp/bestsellers/boost/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/pet-supplies/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/amazon-devices/ref=zg_bs_nav_0
-https://www.amazon.fr/gp/bestsellers/mobile-apps/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/automotive/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/luggage/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/beauty/ref=zg_bs_nav_0
@@ -10,7 +9,6 @@ https://www.amazon.fr/gp/bestsellers/digital-text/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/gift-cards/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/hi/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/baby/ref=zg_bs_nav_0
-https://www.amazon.fr/gp/bestsellers/music/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/shoes/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/industrial/ref=zg_bs_nav_0
 https://www.amazon.fr/gp/bestsellers/kitchen/ref=zg_bs_nav_0

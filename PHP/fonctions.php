@@ -45,23 +45,61 @@ function findObjects($htmlink, $categorie){
     {
         foreach($ul->find('li') as $li)
         {
-            $ojects[$i]['CategorieMere']=$categorie;
-            $ojects[$i]['CategorieFille']=after('en ',$html->find('h1')[0]->plaintext);
-            $ojects[$i]['Rang']=$li->find('span[class=zg-badge-text]')[0]->plaintext;
-            $url = $li->find('a[class=a-link-normal]')[0]->href;
-            $html2=file_get_contents("https://www.amazon.fr".$url);
-            sleep(1.5);
-            $ojects[$i]['Marque']=between('Marque&nbsp;: ','</a>', $html2);
-            $ojects[$i]['Expediteur']=between("sellerProfileTriggerId'>",'</a>', $html2);
-            $asin=between('dp/','/ref',$url);
-            $ojects[$i]['ASIN']=$asin;
-            $ojects[$i]['etoile']=before(' ',$li->find('span[class=a-icon-alt]')[0]->plaintext);
-            $ojects[$i]['note']=$li->find('a[class=a-size-small a-link-normal]')[0]->plaintext;
-            $ojects[$i]['date']=date("Y-m-d");
-            $i++;
-            if ($i == 11) break;
+            try {
+                $ojects[$i]['CategorieMere']=$categorie;
+                $ojects[$i]['CategorieFille']=after('en ',$html->find('h1')[0]->plaintext);
+                $ojects[$i]['Rang']=$li->find('span[class=zg-badge-text]')[0]->plaintext;
+                $url = $li->find('a[class=a-link-normal]')[0]->href;
+                $html2=file_get_contents("https://www.amazon.fr".$url);
+                sleep(1.5);
+                $ojects[$i]['Marque']=between('Marque&nbsp;: ','</a>', $html2);
+                $ojects[$i]['Expediteur']=between("sellerProfileTriggerId'>",'</a>', $html2);
+                if(stristr($ojects[$i]['Expediteur'], '"')) {
+                    $ojects[$i]['Expediteur'] = str_replace('"', "", $ojects[$i]['Expediteur']);
+                }
+                $asin=between('dp/','/ref',$url);
+                $ojects[$i]['ASIN']=$asin;
+                $ojects[$i]['etoile']=before(' ',$li->find('span[class=a-icon-alt]')[0]->plaintext);
+                $ojects[$i]['note']=$li->find('a[class=a-size-small a-link-normal]')[0]->plaintext;
+                $ojects[$i]['date']=date("Y-m-d");
+                $i++;
+                if ($i == 11) break;
+            }catch (Exception $e) {
+                echo 'Exception reçue : ',  $e->getMessage(), "\n";
+                mylog($e->getMessage());
+            }
         }
 
     }
     return $ojects;
 };
+
+function tofloat($num) {
+    $dotPos = strrpos($num, '.');
+    $commaPos = strrpos($num, ',');
+    $sep = (($dotPos > $commaPos) && $dotPos) ? $dotPos :
+        ((($commaPos > $dotPos) && $commaPos) ? $commaPos : false);
+
+    if (!$sep) {
+        return floatval(preg_replace("/[^0-9]/", "", $num));
+    }
+
+    return floatval(
+        preg_replace("/[^0-9]/", "", substr($num, 0, $sep)) . '.' .
+        preg_replace("/[^0-9]/", "", substr($num, $sep+1, strlen($num)))
+    );
+};
+
+function mylog($desc) {
+    $ERROR_FILE = file('../mon_fichier.log');
+    /* ligne à écrire */
+    $ligne = date('Y-m-d H:i:s')."\t".$_SERVER['PHP_SELF']."\t"."\t$desc";
+
+    /* ouverture du fichier de log, le mode "a+" permet d'écrire à la fin */
+    if($fp = fopen($ERROR_FILE, "a+")) {
+        /* écriture de la ligne à concurrence de 1024 caractères */
+        fwrite($fp, $ligne, 1024);
+        /* fermeture du fichier */
+        fclose($fp);
+    }
+}

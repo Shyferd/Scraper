@@ -65,9 +65,7 @@ function findObjects($htmlink, $categorie){
                 $i++;
                 if ($i == 11) break;
             }catch (Exception $e) {
-                echo 'Exception reçue : ',  $e->getMessage(), "\n";
-                mylog($e->getMessage());
-            }
+                error_log(date("d-m-Y h:i:s").' Error : '.$e->getMessage()."\n\n", 3, '../Logs/mylog.log');            }
         }
 
     }
@@ -90,16 +88,3 @@ function tofloat($num) {
     );
 };
 
-function mylog($desc) {
-    $ERROR_FILE = file('../mon_fichier.log');
-    /* ligne à écrire */
-    $ligne = date('Y-m-d H:i:s')."\t".$_SERVER['PHP_SELF']."\t"."\t$desc";
-
-    /* ouverture du fichier de log, le mode "a+" permet d'écrire à la fin */
-    if($fp = fopen($ERROR_FILE, "a+")) {
-        /* écriture de la ligne à concurrence de 1024 caractères */
-        fwrite($fp, $ligne, 1024);
-        /* fermeture du fichier */
-        fclose($fp);
-    }
-}

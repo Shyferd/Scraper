@@ -28,31 +28,138 @@
   <component name="ChangeListManager">
     <list default="true" id="5744343d-96b4-4397-bbec-40e84d2d2fe0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/SQLI.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/jquery-3.5.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/jquery-3.5.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/example_advanced_selector.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/example_advanced_selector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/example_basic_selector.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/example_basic_selector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/example_callback.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/example_callback.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/example_extract_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/example_extract_html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/example_modify_contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/example_modify_contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/scraping/example_scraping_digg.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/scraping/example_scraping_digg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/scraping/example_scraping_general.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/scraping/example_scraping_general.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/scraping/example_scraping_imdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/scraping/example_scraping_imdb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/scraping/example_scraping_slashdot.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/scraping/example_scraping_slashdot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/example/simple_html_dom_utility.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/example/simple_html_dom_utility.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/custom_theme/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/custom_theme/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/constants.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/constants.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/definitions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/definitions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/file_get_html.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/file_get_html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/__construct.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/__construct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/__destruct.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/__destruct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/__get.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/__get.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/__toString.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/__toString.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/as_text_node.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/as_text_node.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/childNodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/childNodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/clear.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/clear.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/copy_skip.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/copy_skip.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/copy_until.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/copy_until.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/copy_until_char.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/copy_until_char.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/createElement.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/createElement.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/createTextNode.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/createTextNode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/dump.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/dump.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/find.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/find.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/firstChild.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/firstChild.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/getElementById.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/getElementById.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/getElementByTagName.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/getElementByTagName.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/getElementsById.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/getElementsById.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/getElementsByTagName.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/getElementsByTagName.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/lastChild.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/lastChild.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/link_nodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/link_nodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/load.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/load.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/loadFile.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/loadFile.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/load_file.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/load_file.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/parse.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/parse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/parse_attr.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/parse_attr.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/parse_charset.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/parse_charset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/prepare.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/prepare.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/read_tag.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/read_tag.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/remove_callback.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/remove_callback.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/remove_noise.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/remove_noise.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/restore_noise.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/restore_noise.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/save.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/save.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/search_noise.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/search_noise.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/set_callback.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/set_callback.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/simple_html_dom.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/simple_html_dom.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/skip.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom/skip.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__construct.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__construct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__destruct.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__destruct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__get.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__get.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__isset.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__isset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__set.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__toString.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__toString.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__unset.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/__unset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/addClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/addClass.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/appendChild.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/appendChild.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/childNodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/childNodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/children.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/children.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/clear.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/clear.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/convert_text.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/convert_text.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/dump.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/dump.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/dump_node.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/dump_node.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/find.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/find.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/find_ancestor_tag.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/find_ancestor_tag.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/firstChild.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/firstChild.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/first_child.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/first_child.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getAllAttributes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getAllAttributes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getAttribute.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getAttribute.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getElementById.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getElementById.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getElementByTagName.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getElementByTagName.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getElementsById.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getElementsById.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getElementsByTagName.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/getElementsByTagName.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/get_display_size.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/get_display_size.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/hasAttribute.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/hasAttribute.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/hasChildNodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/hasChildNodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/hasClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/hasClass.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/has_child.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/has_child.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/innertext.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/innertext.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/is_utf8.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/is_utf8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/lastChild.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/lastChild.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/last_child.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/last_child.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/makeup.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/makeup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/match.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/match.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/nextSibling.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/nextSibling.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/next_sibling.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/next_sibling.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/nodeName.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/nodeName.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/outertext.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/outertext.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/parent.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/parent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/parentNode.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/parentNode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/parse_selector.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/parse_selector.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/prevSibling.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/prevSibling.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/prev_sibling.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/prev_sibling.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/remove.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/remove.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/removeAttribute.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/removeAttribute.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/removeChild.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/removeChild.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/removeClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/removeClass.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/save.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/save.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/seek.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/seek.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/setAttribute.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/setAttribute.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/simple_html_dom_node.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/simple_html_dom_node.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/text.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/text.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/xmltext.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/simple_html_dom_node/xmltext.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/api/str_get_html.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/api/str_get_html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/faq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/manual/accessing-element-attributes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/manual/accessing-element-attributes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/manual/adding-nodes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/manual/adding-nodes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/manual/creating-dom-objects.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/manual/creating-dom-objects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/manual/customizing-parsing-behavior.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/manual/customizing-parsing-behavior.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/manual/finding-html-elements.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/manual/finding-html-elements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/manual/saving-dom-objects.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/manual/saving-dom-objects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/manual/traversing-dom-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/manual/traversing-dom-tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/quick-start.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/quick-start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/docs/requirements.md" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/docs/requirements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/extra.css" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/extra.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/manual/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/manual/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/phpcompatibility.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/phpcompatibility.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/phpcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/phpcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libs/simple_html_dom.php" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/simple_html_dom.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/cnx.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/cnx.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/fonctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/fonctions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/graph.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.min.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/links.txt" afterDir="false" />
     </list>
@@ -94,6 +201,8 @@
       <workItem from="1608212465900" duration="1270000" />
       <workItem from="1610360364369" duration="13347000" />
       <workItem from="1610383507267" duration="1066000" />
+      <workItem from="1610531212354" duration="318000" />
+      <workItem from="1610533872199" duration="2394000" />
     </task>
     <servers />
   </component>
@@ -123,19 +232,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1450" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610379166427">
-      <screen x="0" y="0" width="3440" height="1400" />
-    </state>
-    <state x="1450" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610379166427" />
-    <state x="1554" y="623" key="NewPhpFileDialog" timestamp="1610383532409">
-      <screen x="0" y="0" width="3440" height="1400" />
-    </state>
-    <state x="1554" y="623" key="NewPhpFileDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610383532409" />
-    <state x="1383" y="315" key="search.everywhere.popup" timestamp="1610383520674">
-      <screen x="0" y="0" width="3440" height="1400" />
-    </state>
-    <state x="1383" y="315" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1610383520674" />
   </component>
 </project>

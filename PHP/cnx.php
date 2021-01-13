@@ -1,7 +1,7 @@
 <?php
 @ini_set('display_errors', 'on');
 session_start();
-$dsn='mysql:dbname=mabase;host=localhost';
+$dsn='mysql:dbname=mabase;host=127.0.0.1';
 $login='root';
 $motDePasse='root';
 try{

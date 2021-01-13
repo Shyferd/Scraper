@@ -16,25 +16,29 @@ function between ($a, $that, $inthat)
 };
 
 function findSousCateg($htmlink){
-    $i=1;
-    $html=file_get_html($htmlink);
-    sleep(1.5);
-    $categorie=after('en ',$html->find('h1')[0]->plaintext);
-    foreach($html->find('ul[id=zg_browseRoot]') as $liste)
-    {
-        foreach($liste->find('a[href]') as $sousCateg)
+    try {
+        $i=1;
+        $html=file_get_html($htmlink);
+        sleep(1.5);
+        $categorie=after('en ',$html->find('h1')[0]->plaintext);
+        foreach($html->find('ul[id=zg_browseRoot]') as $liste)
         {
-            $sousCategName[$sousCateg->plaintext]=($sousCateg->href);
-            if (isset($sousCategName['Tout département'])){
-                unset($sousCategName['Tout département']);
-            }else {
-                $objects[$i]= findObjects($sousCategName[$sousCateg->plaintext], $categorie);
-                $i++;
-                //var_dump($objects);break;
+            foreach($liste->find('a[href]') as $sousCateg)
+            {
+                $sousCategName[$sousCateg->plaintext]=($sousCateg->href);
+                if (isset($sousCategName['Tout département'])){
+                    unset($sousCategName['Tout département']);
+                }else {
+                    $objects[$i]= findObjects($sousCategName[$sousCateg->plaintext], $categorie);
+                    $i++;
+                    //var_dump($objects);break;
+                }
             }
         }
+        return $objects;
+    }catch (Exception $e) {
+        error_log(date("d-m-Y h:i:s") . ' Error : ' . $e->getMessage() . "\n\n", 3, '../Logs/Error.log');
     }
-    return $objects;
 };
 
 function findObjects($htmlink, $categorie){
@@ -65,7 +69,8 @@ function findObjects($htmlink, $categorie){
                 $i++;
                 if ($i == 11) break;
             }catch (Exception $e) {
-                error_log(date("d-m-Y h:i:s").' Error : '.$e->getMessage()."\n\n", 3, '../Logs/mylog.log');            }
+                error_log(date("d-m-Y h:i:s") . ' Error : ' . $e->getMessage() . "\n\n", 3, '../Logs/Error.log');
+            }
         }
 
     }

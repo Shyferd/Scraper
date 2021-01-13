@@ -26,12 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5744343d-96b4-4397-bbec-40e84d2d2fe0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/Error.log" afterDir="false" />
+    <list default="true" id="5744343d-96b4-4397-bbec-40e84d2d2fe0" name="Default Changelist" comment="update3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/mylog.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Avancement.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/script2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/fonctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/fonctions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +71,14 @@
       <workItem from="1610531212354" duration="318000" />
       <workItem from="1610533872199" duration="2394000" />
     </task>
+    <task id="LOCAL-00001" summary="update3">
+      <created>1610555583388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610555583388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,10 +108,18 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update3" />
+    <option name="LAST_COMMIT_MESSAGE" value="update3" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1426" y="471" key="#Log_Highlighting_(ideolog)" timestamp="1610553794874">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1426" y="471" key="#Log_Highlighting_(ideolog)/0.0.3440.1400@0.0.3440.1400" timestamp="1610553794874" />
+    <state x="1312" y="420" key="Vcs.Push.Dialog.v2" timestamp="1610555586629">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1312" y="420" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1610555586629" />
   </component>
 </project>

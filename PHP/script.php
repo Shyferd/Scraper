@@ -24,7 +24,7 @@ do {
                     $queryEtat->execute();
                 } catch (Exception $e) {
                     error_log(date("d-m-Y h:i:s") . ' Catégorie : ' . $objet['CategorieMere'] . " = KO\n\n", 3, '../Logs/Avancement.log');
-                    error_log(date("d-m-Y h:i:s") . ' Error : ' . $e->getMessage() . "\n\n", 3, '../Logs/Error.log');
+                    error_log(date("d-m-Y h:i:s") . ' Error : ' . $e->getMessage() . "\n\n", 3, '../Logs/error.log');
                 }
             }
         }

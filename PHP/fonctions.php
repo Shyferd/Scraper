@@ -37,7 +37,7 @@ function findSousCateg($htmlink){
         }
         return $objects;
     }catch (Exception $e) {
-        error_log(date("d-m-Y h:i:s") . ' Error : ' . $e->getMessage() . "\n\n", 3, '../Logs/Error.log');
+        error_log(date("d-m-Y h:i:s") . ' Error : ' . $e->getMessage() . "\n\n", 3, '../Logs/error.log');
     }
 };
 
@@ -69,7 +69,7 @@ function findObjects($htmlink, $categorie){
                 $i++;
                 if ($i == 11) break;
             }catch (Exception $e) {
-                error_log(date("d-m-Y h:i:s") . ' Error : ' . $e->getMessage() . "\n\n", 3, '../Logs/Error.log');
+                error_log(date("d-m-Y h:i:s") . ' Error : ' . $e->getMessage() . "\n\n", 3, '../Logs/error.log');
             }
         }
 
